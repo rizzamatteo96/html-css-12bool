@@ -3,17 +3,21 @@ body{
 }
 
 .box{
-    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
     background-color: #ffc0cb;
     border: 1px solid black;
     text-align: center;
-    line-height: 200px;
 }
 
 .box-nested{
-    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
     background-color: #f07f80;
     border: 1px solid white;
     text-align: center;
-    line-height: 200px;
 }
