@@ -1,0 +1,23 @@
+body{
+    background-color: violet;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box-nested{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: #f07f80;
+    border: 1px solid white;
+    text-align: center;
+}
