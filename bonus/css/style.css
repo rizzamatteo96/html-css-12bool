@@ -4,7 +4,6 @@ body{
 
 .box{
     height: 50px;
-    border: 1px solid black;
 }
 
 .box.yellow{
