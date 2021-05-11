@@ -1,3 +1,4 @@
+/* COMMONS */
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +24,11 @@
     flex: 0 0 auto;
 } 
 
-  /* 12 System */
+.p-15{
+    padding: 15px;
+}
+
+/* EXTRA SMALL WIDTH */
 .col-xs {
     flex-grow: 1;
     flex-basis: 0;
@@ -142,12 +147,4 @@
 
 .bottom-xs {
     align-items: flex-end;
-}
-
-.p-15{
-    padding: 15px;
-}
-
-.ptb-100{
-    padding: 100px 0;
 }
